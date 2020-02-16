@@ -7,7 +7,6 @@ import Projects from './pages/projects';
 
 const RouterComponent = () => {
   return (
-
     // Hash router works similarly to BrowserRouter
     // except that it uses the portion of the url after 
     // the '#' to preserve history (as in next and previous)
