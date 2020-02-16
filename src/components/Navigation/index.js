@@ -1,10 +1,11 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import './style.css'
 
 export default function () {
 
     return (
-        <Navbar expand="sm">
+        <Navbar className='fixed-top bg-whitesmoke' expand="sm">
             <Navbar.Brand href="#/">Kyle Whittemore</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

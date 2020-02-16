@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import ProjectCard from '../../components/ProjectCard';
-import projects from './projects';
+import projects from './data'
 import './style.css';
 
 export default function () {

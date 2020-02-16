@@ -1,9 +1,9 @@
 import React from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Home from './pages/home/index';
-import Blog from './pages/blog/index'
-import Navigation from './components/Navigation';
+import Blog from './pages/blog';
 import Projects from './pages/projects';
+import Layout from './layouts/PageLayout';
 
 const RouterComponent = () => {
   return (
@@ -21,9 +21,8 @@ const RouterComponent = () => {
 
 export default function App() {
   return (
-    <>
-      <Navigation />
+    <Layout>
       <RouterComponent />
-    </>
+    </Layout>
   );
 }

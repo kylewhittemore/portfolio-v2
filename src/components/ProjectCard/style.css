@@ -1,4 +1,7 @@
 .project-card {
-    width: 50px;
-
+    width: 18rem;
+    background-color: lavender;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px lightgray;
+    
 }

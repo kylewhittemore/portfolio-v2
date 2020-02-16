@@ -1,6 +1,6 @@
 import cardImage from './logo192.png'
 
-const projects = [
+export default [
     {
         name: `project one`,
         image: cardImage,
@@ -53,5 +53,3 @@ const projects = [
         ]
     },
 ];
-
-export default projects;
