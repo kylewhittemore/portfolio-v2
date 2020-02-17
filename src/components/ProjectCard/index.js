@@ -10,7 +10,7 @@ export default function (props) {
             <Card.Body>
                 <Card.Title>{props.project.name}</Card.Title>
                 <Card.Text>{props.project.description}</Card.Text>
-                <Button className='btn-purple'>Visit Demo!</Button>
+                <Button variant='success'>Visit Demo!</Button>
             </Card.Body>
         </Card>
     )
