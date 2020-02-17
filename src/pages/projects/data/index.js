@@ -1,9 +1,15 @@
-import cardImage from './logo192.png'
+import fistOfFiveImg from './images/fist_of_five-min.jpg';
+import gifGetterImg from './images/gif-getter-min.jpg';
+import heatMapImg from './images/heatmap_example-min.jpg';
+import rpsImg from './images/rock_paper_scissors-min.jpg';
+import triviaGame from './images/trivia-game-min.jpg';
+import simpsonsTv from './images/tv_simpsons-min.jpg';
 
 export default [
+
     {
         name: `project one`,
-        image: cardImage,
+        image: fistOfFiveImg,
         description: `An arbitrary description on a placeholder project`,
         technologies: [
             `Javascript`,
@@ -16,7 +22,7 @@ export default [
     },
     {
         name: `project two`,
-        image: cardImage,
+        image: gifGetterImg,
         description: `An arbitrary description on a placeholder project`,
         technologies: [
             `Javascript`,
@@ -29,7 +35,8 @@ export default [
     },
     {
         name: `project three`,
-        image: cardImage, description: `An arbitrary description on a placeholder project`,
+        image: heatMapImg, 
+        description: `An arbitrary description on a placeholder project`,
         technologies: [
             `Javascript`,
             `React`,
@@ -41,7 +48,33 @@ export default [
     },
     {
         name: `project four`,
-        image: cardImage,
+        image: rpsImg,
+        description: `An arbitrary description on a placeholder project`,
+        technologies: [
+            `Javascript`,
+            `React`,
+            `SQL`,
+            `Node`,
+            `Express`,
+            `Sequelize`,
+        ]
+    },
+    {
+        name: `project five`,
+        image: triviaGame,
+        description: `An arbitrary description on a placeholder project`,
+        technologies: [
+            `Javascript`,
+            `React`,
+            `SQL`,
+            `Node`,
+            `Express`,
+            `Sequelize`,
+        ]
+    },
+    {
+        name: `project six`,
+        image: simpsonsTv,
         description: `An arbitrary description on a placeholder project`,
         technologies: [
             `Javascript`,

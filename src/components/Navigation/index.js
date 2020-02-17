@@ -5,7 +5,7 @@ import './style.css'
 export default function () {
 
     return (
-        <Navbar className='fixed-top bg-whitesmoke' expand="sm">
+        <Navbar className='sticky-top bg-whitesmoke' expand="sm">
             <Navbar.Brand href="#/">Kyle Whittemore</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
